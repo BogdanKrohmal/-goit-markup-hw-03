@@ -86,6 +86,11 @@ img {
 
 .header {
   background-color: var(--stud-main-h1-color);
+ padding-top: 24px;
+  padding-bottom: 25px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #ececec;
 }
 
 .header-navigation {
@@ -96,11 +101,8 @@ img {
 .header-container {
   display: flex;
   align-items: center;
-  padding-top: 24px;
-  padding-bottom: 25px;
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
-  border-bottom-color: #ececec;
+ 
+  
 }
 
 .connect-list {
@@ -427,7 +429,7 @@ padding-bottom: 94px;
   border-left-width: 1px;
   border-left-style: solid;
   border-left-color: #eeeeee;
-  padding: 0 24px 20px;
+  padding: 20px 24px;
 }
 
 .portfolio-item {
@@ -439,7 +441,7 @@ padding-bottom: 94px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--port-title-color);
-  padding-top: 20px;
+  /* padding-top: 20px; */
   padding-bottom: 4px;
 }
 .portfolio-text {
@@ -447,5 +449,5 @@ padding-bottom: 94px;
   line-height: 1.88;
   letter-spacing: 0.03em;
   color: var(--port-text-color);
-  padding-bottom: 20px;
+  /* padding-bottom: 20px; */
 }
